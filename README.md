@@ -109,6 +109,9 @@ docker-compose down
 │   │   │               │   └── FileProcessor.java
 │   │   │               └── DesafioApplication.java
 │   │   └── resources
+│   │       ├── import
+│   │       │   ├── data_1.txt
+│   │       │   └── data_2.txt
 │   │       ├── static
 │   │       ├── templates
 │   │       ├── application.properties
@@ -139,7 +142,7 @@ docker-compose down
 │                       ├── utils
 │                       │   └── FileProcessorTest.java
 │                       └── DesafioApplicationTests.java
-│   
+├── Desafio técnico - Vertical Logistica.pdf
 ├── docker-compose.yaml
 ├── Dockerfile
 ├── HELP.md
@@ -152,6 +155,12 @@ docker-compose down
 ```
 #### Considerações Finais
 Este projeto foi desenvolvido com o intuito de ser um exemplo simples e funcional, demonstrando a integração com um banco de dados em memória (H2) e a construção de uma API RESTful com Spring Boot.
+
+Para testar a API, basta fazer uma requisição do tipo POST para o enpoint http://localhost:8080/api/orders  utilizando uma ferramente para simular requisições REST como o Postman.
+
+Utilize no corpo da requisição o tipo form-data. Coloque o key (chave) com o nome do campo "file" e selecione o arquivo a ser importado. 
+
+Existem dois exemplos de arquivos para importação no diretório /src/main/resources/import/.
 
 Sinta-se à vontade para explorar o código e fazer melhorias!
 

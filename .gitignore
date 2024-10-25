@@ -1,3 +1,15 @@
+# Ignorar a pasta target do Maven
+/target/
+
+# Ignorar arquivos de configuração do IntelliJ IDEA
+*.iml
+.idea/
+
+# Ignorar arquivos de configuração do Eclipse
+.settings/
+.classpath
+.project
+
 # Compiled class file
 *.class
 
