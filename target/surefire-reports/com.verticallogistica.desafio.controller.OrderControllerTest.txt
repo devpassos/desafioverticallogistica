@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.verticallogistica.desafio.controller.OrderControllerTest
--------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.771 s -- in com.verticallogistica.desafio.controller.OrderControllerTest
